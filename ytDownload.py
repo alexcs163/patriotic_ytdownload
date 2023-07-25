@@ -1,7 +1,6 @@
 from pytube import YouTube
 from tkinter import Tk, filedialog, Button, Entry, StringVar, Label, PhotoImage
 from PIL import Image, ImageTk
-from sys import argv
 
 def browse_files():
     foldername = filedialog.askdirectory()
